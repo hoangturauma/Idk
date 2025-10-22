@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "eclipse.euphoriacompanion.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+    "RegistryFreezerMixin"
+  ],
+  "client": [
+    "MinecraftClientMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
